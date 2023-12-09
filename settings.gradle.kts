@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Artes"
-include(":core")
+include(":core:entities")
