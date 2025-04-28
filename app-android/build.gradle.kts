@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2025 Pointyware. Use of this software is governed by the GPL-3.0 license.
+ */
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
@@ -30,6 +34,7 @@ android {
 
     defaultConfig {
         minSdk = 24
+        targetSdk = 35
 
         versionCode = 1
         versionName = "0.1.0"
